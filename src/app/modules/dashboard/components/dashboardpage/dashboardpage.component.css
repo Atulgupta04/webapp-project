@@ -1,0 +1,200 @@
+
+.p1{
+    text-align: center;
+    background: aqua;
+}
+
+/* .head1{
+    background: rgb(39, 111, 111);
+    height: 735px;
+    font-size: 100px;
+} */
+
+.sidebar-opener {
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.sidebar-slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #825659;
+    transform: translateX(-100%);
+    transition: ease-in-out 300ms transform;
+    width: 300px;
+}
+
+.sidebar-slider.sidebar-slide-in {
+    transform: translateX(0%);
+    transition: ease-in-out 600ms transform;
+}
+
+.sidebar-close {
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.sidebar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    cursor: pointer;
+    color: black;
+    font-size: 16px;
+    padding: 16px;
+    height: 100%;
+}
+
+/* nav a{
+    display: grid;
+    place-items: right;
+} */
+
+.h3{
+    text-align: center;
+    /* margin-top: 25%; */
+    font-size: 100px;
+    opacity: 0.01;
+}
+
+p{
+    color: #222;
+    text-align: center;
+}
+
+/* * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+  } */
+  
+  header {
+    background: #136c72;
+    padding: 1em 0;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 0.5em;
+  }
+  
+  .nav__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .nav__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .nav__link:hover {
+    opacity: 0.75;
+  }
+  
+  .nav__link--button {
+    background: #fff;
+    color: #136c72;
+    padding: 0.25em 1em;
+    border-radius: 10rem;
+  }
+  
+  /**
+    * Layouting:
+    *    1. use `flex` to make nav__list horizontal.
+    *    2. add `margin-left` to each nav__item.
+    *    3. set `align-items: center` on nav__list to make items' vertical positions from flex-start to center.
+    *    4. set `justify-content: space-between` to make 2 child items be on two different sides.
+    */
+  .container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    
+    /* to make HOME align-left, you need to write this */
+    /*   flex-grow: 1;  // choose one: width or grow */
+    width: 100%;
+  }
+  
+  .nav__list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav__item + .nav__item {
+    margin-left: 0.5em;
+  }
+  
+  /*
+    Another Header Implementation: https://codepen.io/aya-suz/pen/MWqKaoG
+  */
+
+.content-1{
+    border: 1px solid black;
+    height: 150px;
+    width: 1205px;
+    margin-top: -100px;
+    margin-left: 293px;
+    margin-bottom: 445px;
+}
+
+.content-1 .left-1{
+    border: 1px solid aquamarine;
+    width: 49%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.content-1 .right-1{
+    border: 1px solid green;
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.content-2{
+    border: 1px solid yellowgreen;
+    height: 400px;
+    width: 1200px;
+    margin-top: -400px;
+    margin-left: 293px;
+    margin-bottom: 35px;
+}
+
+.content-2 .c-2 {
+    border: 1px solid aquamarine;
+    width: 1200px;
+    height: 400px;
+    text-align: center;
+}
+
+

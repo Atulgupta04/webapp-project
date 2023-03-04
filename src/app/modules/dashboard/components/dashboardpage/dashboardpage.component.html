@@ -1,0 +1,24 @@
+
+<section class="sd"> <div class="head1">Welcome!!
+<router-outlet></router-outlet>
+
+
+  <div class="sidebar-opener">
+    </div>
+    <!-- <router-outlet></router-outlet> -->
+    
+    <div class="sidebar-slider" [class.sidebar-slide-in]="sidebarShow">
+        <div class="sidebar-content">
+          <div skipLocationChange (click)="header()" >Header</div>
+          <div skipLocationChange (click)="home()"> Home </div>
+          <div skipLocationChange (click)="services()" >  Services </div>
+          <div skipLocationChange (click)="contact()">  contact </div>
+          <div skipLocationChange (click)="footer()">  footer </div>
+
+        </div>
+    </div>
+<!-- <h3 class="h3">
+  Hello User!
+</h3> -->
+</div>
+</section>
