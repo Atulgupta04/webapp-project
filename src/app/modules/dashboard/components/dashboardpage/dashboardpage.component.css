@@ -23,7 +23,8 @@ button{
     top: 0;
     left: 0;
     bottom: 0;
-    background-color: #825659;
+    background-color: #00425a;
+    color: white;
     transform: translateX(-100%);
     transition: ease-in-out 300ms transform;
     width: 300px;
@@ -49,7 +50,7 @@ button{
     justify-content: space-around;
     flex-direction: column;
     cursor: pointer;
-    color: black;
+    color: #fff;
     font-size: 16px;
     padding: 16px;
     height: 100%;
